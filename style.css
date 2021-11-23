@@ -1,0 +1,471 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@1,100&family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alegreya Sans SC', sans-serif;
+font-family: 'Anton', sans-serif;
+ 
+}
+a{
+  text-decoration: none;
+}
+body{
+  background: rgb(41, 40, 40);
+}
+/* background banner image section */
+.main{
+  width: 100%;
+  height: 100vh;
+  background-image: url(/asets/images/TGK_headerDesktop.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+ /* background-attachment: fixed;  */
+  border-bottom: 2px solid green;
+  background-position: -7rem 0rem;
+  
+}
+/* header section*/
+header{
+  padding: 3.1rem 9rem;
+  letter-spacing: -1px;
+  
+}
+.header{
+  display: flex;
+}
+header a{
+  text-decoration: none;
+  color: white;
+font-size: 10px;
+}
+.logo a h1{
+  margin-bottom: -1rem;
+}
+
+.logo {
+  width: 20%;
+  height: fit-content;
+}
+ a:hover{
+  color: #3cb878;
+}
+#digital{
+  font-size: 8px;
+  letter-spacing: 0px;
+  padding-left: .9rem;
+}
+span {    
+  transform:scale(3,1); 
+  -webkit-transform:scale(3,1);
+  display:inline-block; 
+}
+/* nav bar */
+.navigation-bar{
+  font-family: 'M PLUS 2', sans-serif;
+  width: 75%;
+  height: fit-content;
+}
+ul{
+margin: auto;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+ul li a,.search h3 a{
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+/* search bar */
+.search{
+  width: 20%;
+  height: fit-content;
+  text-align: center;
+  
+}
+.search h3 {
+ 
+  font-size: 1rem;
+  margin-left: 4rem;
+  border-left: .5px solid rgb(110, 109, 109);
+}
+#search-icon{
+  margin-left: 1rem;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+}
+.image-container{
+  width: 100%;
+  height: auto;
+  background: rgb(41, 40, 40);
+  
+  
+}
+/* banner section */
+.banner{
+  /* background: red; */
+  margin: 10rem 6.5rem;
+  width: 80%;
+}
+.visual{
+  width: fit-content;
+  /* background: #000; */
+  /* font-family: 'Alegreya Sans SC', sans-serif; */
+    font-size: 2.3rem;
+    line-height: 7rem;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.visual h1{
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: 900;
+}
+.banner-discription{
+  font-size: 2rem;
+  color: #fff ;
+}
+.banner-discription p{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600; /* font-family: 'Montserrat', sans-serif; */
+  
+}
+.banner-bottom{
+  display: flex;
+  /* background: green; */
+}
+.text{
+  width: 50%;
+  letter-spacing: 1.5px;
+  color: #3cb878;
+  margin-top: 3rem;
+}
+.unity  h4{
+  margin-top: .6rem;
+  letter-spacing: 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  font-weight: 600;
+  color: #fff;
+}
+
+.view{
+  text-align: center;
+  font-size: 1rem;
+  font-family: sans-serif;
+  font-style: normal;
+  float: left;
+  color: #fff;
+  padding-top: 1rem;
+}
+/* main poster section */
+
+.whats-going-on h1{
+  letter-spacing: -2px;
+font-size: 3rem;
+font-family: 'M PLUS 2', sans-serif;
+padding-top: 4rem;
+margin-left: 8rem;
+color: #3cb878;
+}
+.poster{
+  display: flex;
+}
+.main-poster-image{
+  margin-top: 4rem;
+  overflow: hidden;
+  box-shadow: 10px 10px 14px 1px rgb(0, 0, 0);
+  height: 36rem;
+  position: absolute;
+}
+.main-poster-image img{
+  width: 50.2rem;
+  height: 36.2rem;
+  border-radius: 7px;
+  
+}
+/* sub poster article section */
+.sub-poster{
+  width: 30rem;
+  height: 37rem;
+  margin-left: 18rem;
+  margin-top: 8rem;
+  background: rgb(36, 36, 36);
+  border-radius: 7px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 10px 10px 14px 1px rgb(0, 0, 0);
+  z-index: 1;
+}
+.sub-poster-image img{
+  border-radius: 8px;
+  width:25rem;
+  height: 18rem;
+}
+.sub-poster-title h5{
+  text-align: left;
+  letter-spacing: 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #fff;
+  margin-top: 4rem;
+  margin-left: 2rem;
+}
+.sub-poster-title{
+  width: 100%;
+  height: 20%;
+}
+.sub-poster-title-2{
+width: 100%;
+height: 20%;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: 900;
+  font-size: 1.6rem;
+  letter-spacing: 2px;
+  margin-left: 2rem;
+  color: #fff;
+  line-height: 2.5rem;
+  text-align: left;
+}
+
+.sub-poster-image{
+  height: 30%;
+  width: 70%;
+  margin-left: 2rem;
+
+}
+.sub-poster-link{
+  width: 100%;
+  height: 20%;
+  padding-top: 8rem;
+  padding-left: 2rem;
+}
+.main-poster-title-1{
+  position: relative;
+  margin-top: 13rem;
+  margin-left: 6rem;
+}
+.main-poster-title-1 h5{
+  letter-spacing: 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #fff;
+}
+.main-poster-title-2{
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin-left: 6rem;
+
+  margin-top: 1rem;
+}
+.main-poster-title-2 h2{
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: 900;
+  font-size: 2rem;
+  color: #fff;
+  line-height: 2rem;
+}
+.main-poster-link{
+  position: relative;
+  margin-left: 6rem;
+}
+.main-poster-link H5{
+  margin-top: 2rem;
+}
+a h5:hover{
+  color: #3cb878;
+}
+/* second sub poster */
+.second-sub{
+  line-height: 1rem;
+  padding-top: 7rem;
+  padding-left: 3rem;
+  background-image: url(/asets/images/LOTR1_newLinkTile_desktopSmall.jpg);
+}
+.second-sub-poster-title-2 h2{
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: 900;
+  font-size: 2rem;
+  color: #fff;
+  line-height: 2rem;
+  letter-spacing: 1px;
+}
+.second-poster-title-3{
+  margin-top: 2rem;
+margin-left: 6rem;
+}
+.second-poster-title-3 h5{
+  position: relative;
+  letter-spacing: 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #fff;
+}
+.second-poster-link{
+padding-top: -2rem;
+}
+.second-sub-poster-title-3 h5{
+  margin-top: 5rem;
+  margin-left: -17.5rem;
+  position: relative;
+  letter-spacing: 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #fff;
+}
+.second-sub-poster-link{
+  margin-top: -6rem;
+}
+/* third poster section */
+.third-sub{
+  background-image: url(/asets/images/gdt_newLink_desktopSmall.jpg);
+}
+.third-sub-poster-title-3 h5{
+  margin-top: 5rem;
+  margin-left: -3.5rem;
+  position: relative;
+  letter-spacing: 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.pre-footer{
+  width: 100%;
+  height: 30vh;
+  background: rgb(41, 40, 40);
+}
+.all{
+  width: 50%;
+  padding-top: 5rem;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+/* footer section */
+footer{
+  width: 100%;
+  height: 20rem;
+  background: #3cb878;
+}
+.footer{
+  background: transparent;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-icons{
+  margin-right: 1rem;
+  padding: .3rem;
+  font-size: 1.1rem;
+  background: #000;
+  border-radius: 50%;
+  color: #fff;
+}
+.footer-icons-left{
+  font-size: 2rem;
+  color: #000;
+}
+.footer-tag-1, .footer-tag-2, .footer-tag-3{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2.5rem;
+  background: transparent;
+}
+.left ion-icon{
+  float: left;
+  margin-right: 1rem;
+  background: #3cb878;
+
+}
+.location p{
+  text-align: left;
+  font-size: 13px;
+  font-weight: 100;
+  
+  color: #000;
+  font-family: monospace;
+}
+.location span{
+  font-size: 9px;
+  margin-left: -10rem;
+  color: #000;
+}
+.left a{
+  display: flex;
+align-items: center;
+justify-content: space-between;
+background: #3cb878;
+}
+.left a h5{
+  color: #000;
+float: left;
+text-decoration: underline;
+background: #3cb878;
+
+letter-spacing: 2px;
+}
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #3cb878;
+}
+.right h5{
+  margin-right: 1rem;
+  color: #000;
+  letter-spacing: 2px;
+  font-size: 1rem;
+  background: #3cb878;
+}
+
+
+.footer-logo a{
+  color: #000;
+  margin-left: 8rem;
+}
+.right .footer-logo a h1 {
+  font-size: 1rem;
+  margin-bottom: -.85rem;
+}
+
+#footer-digital{
+  font-size: 8px;
+  margin-left: 1.8rem;
+  font-weight: 100;
+}
+.right p{
+  font-size: 13px;
+  font-weight: 100;
+  line-height: 1rem;
+  text-align: end;
+  text-decoration: underline;
+  font-family: monospace;
+}
+.copy-right{
+  padding-right: 1rem;
+}
+.phone p{
+font-size: 8px;
+font-family: monospace;
+color: #000;
+}
+.phone h5{
+  font-size: 12px;
+  font-family: monospace;
+  text-decoration: none !important;
+  letter-spacing: 0px;
+  line-height: 1.5rem;
+}
