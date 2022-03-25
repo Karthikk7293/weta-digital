@@ -12,7 +12,9 @@ a{
   text-decoration: none;
 }
 body{
-  background: rgb(41, 40, 40);
+    font-size: 10px;
+    background: url('https://www.wetafx.co.nz/resources/themes/weta/img/background/textured_bg.jpg') repeat #111;
+
 }
 /* background banner image section */
 .main{
